@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0",
+    "prettier": "^2.8.2"
+  },
+  "dependencies": {
+    "@pinia-orm/nuxt": "1.1.6",
+    "@pinia/nuxt": "0.4.6",
+    "pinia": "2.0.28",
+    "pinia-orm": "1.4.0"
+  }
+}
